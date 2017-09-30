@@ -1,0 +1,79 @@
+.enlinea{
+	display: inline-block;
+}
+.btn-group{
+	margin-right: 50px;
+}
+.navpil{
+	display: inline-block;
+	float: none;
+}
+.frijoles{
+    text-align: center;
+    padding: 5px 0;
+}
+.frijoles>li{
+    display: inline-block;
+    float: none;
+}
+body{
+    padding-top: 51px;
+	background: #E6E6E6;
+}
+#navegacion{
+	 background-color: white;
+}
+section{
+	background: white;
+	margin: 0;
+	border: 1px solid #ccc;
+}
+h2, h3{
+	display: inline-block;
+}
+h2{
+    float: left;
+    padding: 0;
+    font-size: 5vh;
+    color: gray;
+    line-height: 23px;
+    margin: 5% 0%;
+}
+h3{
+	float: right;
+	padding: 0;
+	font-size: 2vh;
+	color: gray;
+	line-height: 28px;
+	margin: 5% 0%;
+}
+.comentarios{
+	margin: 2vh;
+}
+#multi-col .row > div {
+	padding: 0;
+}
+.navbar-brand .brand {
+    font-family: 'Oleo Script', cursive;
+}
+.navbar-brand i, .navbar-brand .brand {
+    font-size: 25px;
+}
+.columnas {
+	padding: 0px;
+	width: 100%;
+	height: calc((100vh - 100px)/2);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media (max-width: 500px){
+    .columnas {height: calc((100vh - 100px)/3);}
+    h2 {font-size: 25px;}
+}
+.add-some-margin {
+	margin: 15%;
+}
+.post-header {
+	padding: 10px;
+}

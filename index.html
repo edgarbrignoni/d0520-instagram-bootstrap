@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram Feed with Bootstrap</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Font Awesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    <link rel="stylesheet" href="style.css?v231" type="text/css" />
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+    <!--Local Styles-->
+    <link href="style.css?0.31" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">	
+        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+            	<i class="fa fa-instagram" aria-hidden="true"></i>
+            	<span class="brand"> Instagram</span>
+            </a>
+        </div> <!--end navbar-header-->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><button type="button" class="btn btn-success enlinea" data-toggle="modal" data-target="#new_post" style="margin-top: 8px;">Create a new post</button></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cog" aria-hidden="true"></i> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Log out</a></li>
+                    </ul> <!--end dropdown-menu-->
+                </li> <!--end dropdown-->
+            </ul> <!--end navbar-right-->
+        </div> <!--end navbar-collapse-->
+    </div> <!--end container-fluid-->
+</nav> <!--end navbar-fixed-top-->
+
+<ul class="nav nav-pills frijoles">
+    <li role="presentation" class="navpil"><a href="#one-col" data-toggle="tab"><i class="fa fa-stop" aria-hidden="true"></i></a></li>
+    <li role="presentation" class="active navpil"><a href="#multi-col" data-toggle="tab"><i class="fa fa-th" aria-hidden="true"></i></a></li>
+</ul> <!--end nav-pills-->
+
+<div class="tab-content">
+    <div id="one-col" class="no-pad tab-pane">
+        <div class="container-fluid">
+            <div class="row">
+                <section class="col-md-6 col-md-offset-3">
+                    <div class="post-header">
+                        <h2>My first photo</h2>
+                        <h3>12/27</h3>
+                    </div>
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);"></div>
+                    <p class="post-likes">23 Likes...</p>
+                    <div>
+                        <p class="comentarios"> This is my first photo of the feed. this is a multi line comment for testing purposes. I am learning to code with #BreatheCode </p>
+                    </div>
+                </section>
+                <div class = "col-md-6 col-md-offset-3">
+                    <div class="add-some-margin">
+                    </div>
+                </div>
+                <section class="col-md-6 col-md-offset-3">
+                    <div>
+                        <h2>Some cute thing</h2>
+                        <h3>12/17</h3>
+                    </div>
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/5/pug-on-skateboard-dogs-cuteimages.net.jpg);"></div>
+                    <p class="post-likes">23 Likes...</p>
+                    <div>
+                        <hr>
+                        <p class="comentarios"> The internet approves this cute dog...#BreatheCode</p>
+                    </div>
+                </section>
+                <div class = "col-md-6 col-md-offset-3">
+                    <div class="add-some-margin">
+                    </div>
+                </div>
+                <section class="col-md-6 col-md-offset-3">
+                    <div>
+                        <h2>There's a paparazzi around</h2>
+                        <h3>12/17</h3>
+                    </div>
+                    <div class="columnas" style="background-image: url(https://img.grouponcdn.com/deal/eH6eC9qFTixcQ4MKCMVV/q2-5307x3638/v1/c700x420.jpg);"></div>
+                    <p class="post-likes">23 Likes...</p>
+                    <div>
+                        <p class="comentarios"> This is me waiting for the screen to show my awesome first website made at #BreatheCode</p>
+                    </div>
+                </section>
+                <div class = "col-md-6 col-md-offset-3">
+                    <div class="add-some-margin">
+                    </div>
+                </div>
+                <section class="col-md-6 col-md-offset-3">
+                    <div>
+                        <h2>And of course... food!</h2>
+                        <h3>12/17</h3>
+                    </div>
+                    <img class="mg-size" src="https://placehold.it/1000x1000">
+                    <div>
+                        <p class="comentarios"> Because no photo feed is cool without some food on it! #BreatheCode</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div> <!--end one-col-->
+    <div id="multi-col" class="no-pad tab-pane active">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <div class="columnas" style="background-image: url(http://cuteimages.net/data/2015/11/i--8217-m-just-a-little-husky-dogs-cuteimages.net.jpg);">
+                    </div>
+                </div>
+            </div> <!--end row-->
+        </div> <!--end container-fluid-->
+    </div> <!--end multi-col-->
+</div> <!--end tab-content holds one-col and multi-col-->
+    
+<div id="new_post" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">New Post</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body&hellip;</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> <!--end model-body-->
+        </div> <!--end modal-content-->
+    </div> <!--end modal-dialog-->
+</div> <!--end modal-->
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
